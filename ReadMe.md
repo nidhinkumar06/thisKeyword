@@ -1,3 +1,6 @@
+call() / apply() is used to invoke the function immediately
+Whereas bind() is used to when the function needs to be called later in certain events when it's useful.
+
 Implicit and Explicit Calling:
 ================================
 
@@ -21,3 +24,8 @@ Case3: Creating an object and creating a function inside that object and calling
 Using Explict Call - calling indirectly
 --------------------
 Case1: Explicit function is called using call or apply
+
+
+Bound Function
+---------------
+we are returning a bound function with the context which will be invoked later.The first parameter to the bind() method sets the value of "this" in the target function when the bound function is called
